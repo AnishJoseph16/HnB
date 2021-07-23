@@ -7,7 +7,7 @@ hbiApp.factory('paymentService', function($http) {
                         url: "https://checkout-test.adyen.com/v32/paymentSession",
                         data: paymentInput,
 						headers: {
-                            "X-API-Key": "AQEfhmfuXNWTK0Qc+iSesFABe1h8Cxd32qLHGNBZ+MzNyhDBXVsNvuR83LVYjEgiTGAH-+JQpLkHSDmliqvoYb33/PwvkQ8anUgghE9YykxS+Rlk=-GLKj7HYgxLgjN2d5",
+                            "X-API-Key": "",
                             "Content-Type": "application/json"
 						},
 						complete: function() {
